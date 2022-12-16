@@ -1,3 +1,5 @@
+# By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
+
 a = 1
 b = 2
 sum = 0
@@ -8,4 +10,4 @@ while (b < 4000000):
         sum = sum + c
     a = b
     b = c
-print sum + 2
+print(sum + 2)
